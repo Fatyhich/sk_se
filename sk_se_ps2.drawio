@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Safari/605.1.15" version="25.0.1">
   <diagram name="Страница — 1" id="l5UAVurz0LgURboe4OBJ">
-    <mxGraphModel dx="2052" dy="1220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2280" dy="1356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,10 +110,61 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GalNy2QHqwmjgTH99Cij-53" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font&gt;&lt;strong style=&quot;text-align: start;&quot;&gt;Purpose&lt;/strong&gt;&lt;span style=&quot;text-align: start;&quot;&gt;: To design an automated solution for sorting items &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;    &lt;/span&gt;efficiently, with high accuracy and consistency, using a &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;    &lt;/span&gt;robotic sorting system that can adapt to different item types.&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Crimson Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCrimson%2BText;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="40" y="760" width="720" height="120" as="geometry" />
+          <mxGeometry x="40" y="880" width="720" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GalNy2QHqwmjgTH99Cij-54" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;strong style=&quot;text-align: start;&quot;&gt;Viewpoint&lt;/strong&gt;&lt;span style=&quot;text-align: start;&quot;&gt;: To provide a clear and high-level understanding for system &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;engineers and project managers regarding the functional flow &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;and technical requirements of the robotic sorting process.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Crimson Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCrimson%2BText;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="40" y="880" width="720" height="120" as="geometry" />
+          <mxGeometry x="880" y="880" width="720" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GalNy2QHqwmjgTH99Cij-56" value="&lt;div style=&quot;line-height: 120%;&quot;&gt;Robotic Sorting System&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Crimson Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCrimson%2BText;fontSize=32;spacingRight=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="677" y="420" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GalNy2QHqwmjgTH99Cij-57" value="Warehouse with objects" style="endArrow=classicThin;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;endSize=18;strokeWidth=2;fontFamily=Crimson Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCrimson%2BText;fontSize=22;verticalAlign=bottom;spacingRight=24;labelBackgroundColor=none;spacingBottom=5;" edge="1" parent="1">
+          <mxGeometry x="-0.0004" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="462" as="sourcePoint" />
+            <mxPoint x="677" y="462" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GalNy2QHqwmjgTH99Cij-58" value="Sorted&amp;nbsp;&lt;div&gt;Objects&lt;/div&gt;" style="endArrow=classicThin;html=1;rounded=0;endFill=1;endSize=18;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Crimson Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCrimson%2BText;fontSize=22;verticalAlign=top;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="978" y="500" as="sourcePoint" />
+            <mxPoint x="1181" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GalNy2QHqwmjgTH99Cij-59" value="Sorting Rules" style="endArrow=classicThin;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=1;endSize=18;strokeWidth=2;fontFamily=Crimson Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCrimson%2BText;fontSize=22;labelBackgroundColor=none;verticalAlign=bottom;" edge="1" parent="1" target="GalNy2QHqwmjgTH99Cij-56">
+          <mxGeometry x="-1" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="827" y="260" as="sourcePoint" />
+            <mxPoint x="840" y="410" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GalNy2QHqwmjgTH99Cij-60" value="Robotic&lt;div&gt;Arms&lt;/div&gt;" style="endArrow=classicThin;html=1;rounded=0;endFill=1;endSize=18;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Crimson Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCrimson%2BText;fontSize=22;verticalAlign=top;" edge="1" parent="1">
+          <mxGeometry x="-1" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="751" y="740" as="sourcePoint" />
+            <mxPoint x="751" y="580" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GalNy2QHqwmjgTH99Cij-61" value="Detection&lt;div&gt;Systems&lt;/div&gt;" style="endArrow=classicThin;html=1;rounded=0;endFill=1;endSize=18;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Crimson Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCrimson%2BText;fontSize=22;verticalAlign=top;" edge="1" parent="1">
+          <mxGeometry x="-1" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="834" y="740" as="sourcePoint" />
+            <mxPoint x="834" y="580" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GalNy2QHqwmjgTH99Cij-62" value="Basic&lt;div&gt;Workers&lt;/div&gt;" style="endArrow=classicThin;html=1;rounded=0;endFill=1;endSize=18;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Crimson Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCrimson%2BText;fontSize=22;verticalAlign=top;" edge="1" parent="1">
+          <mxGeometry x="-1" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="740" as="sourcePoint" />
+            <mxPoint x="920" y="580" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GalNy2QHqwmjgTH99Cij-63" value="Prescription List" style="endArrow=classicThin;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;endSize=18;strokeWidth=2;fontFamily=Crimson Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCrimson%2BText;fontSize=22;verticalAlign=bottom;spacingRight=24;labelBackgroundColor=none;spacingBottom=5;" edge="1" parent="1">
+          <mxGeometry x="-0.0004" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="540" as="sourcePoint" />
+            <mxPoint x="677" y="540" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
